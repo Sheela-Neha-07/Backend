@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="upper-part">
+            <h1 class="podcast">Podcasts</h1>
+        </div>
+        <div class="lowerpart text-align:center">
+            <div class="first-row d-flex flex-row justify-content-center">
+                <div class="cards" onclick="display('sectionpuripage')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                    <h1 class="card-heading">Puri jagannadh</h1>
+                    <p class="card-para">24 Episodes</p>
+                </div>
+                <div class="cards" onclick="display('sectiontedxpage')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                    <h1 class="card-heading">Tedx talks</h1>
+                    <p class="card-para">12 Episodes</p>
+                </div>
+            </div>
+            <div class="first-row d-flex flex-row justify-content-center">
+                <div class="cards" onclick="display('sectionSadhgurupage')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                    <h1 class="card-heading">Sadhguru</h1>
+                    <p class="card-para">49 Episodes</p>
+                </div>
+                <div class="cards" onclick="display('sectiononpurposepage')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                    <h1 class="card-heading">On Purpose</h1>
+                    <p class="card-para">49 Episodes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="sectionpuripage">
+        <div class="puri-page">
+            <div class="upper">
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                    </div>
+                    <div class="upper-matter">
+                        <p class="upper-para">Podcast</p>
+                        <h1 class="upper-heading">Puri Jagannadh Podcast</h1>
+                        <p class="upper-para">The Puri Jagannadh Podcast</p>
+                    </div>
+                </div>
+                <div class="cards d-flex flex-column justify-content-center">
+                    <div class="card d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <h1 class="lower-heading">Molecular Gastronomy</h1>
+                            <p class="lower-para">Anything happens there it will not cook,...</p>
+                            <p class="lower-time">15 min</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">Mysterious Book</p>
+                            <h1 class="lower-para">The Voynich manuscriptis 15th century book...</h1>
+                            <p class="lower-time">12 min</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">Preadator Drone</p>
+                            <h1 class="lower-para">The most power full drone.It is 10 feet height...</h1>
+                            <p class="lower-time">10 min</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lowe-heading">Paella</p>
+                            <h1 class="lower-para">The national dish of spain.It was first star...</h1>
+                            <p class="lower-time">6 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontedxpage">
+        <div class="tedx-page">
+            <div class="upper">
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                    </div>
+                    <div class="upper-matter">
+                        <p class="upper-para">Podcast</p>
+                        <h1 class="upper-heading">The Tedx Podcast</h1>
+                        <p class="upper-para">The Tedx Podcast</p>
+                    </div>
+                </div>
+                <div class="  cards d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <h1 class="lower-heading">The Science of friction</h1>
+                            <p class="lower-para">Tribology:It's a funny sounding word you might...</p>
+                            <p class="lower-time">12 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">Unleash you</p>
+                            <h1 class="lower-para">What can we learn from the world's most enduringly...</h1>
+                            <p class="lower-time">8 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">3 psychological tricks</p>
+                            <h1 class="lower-para">We all want to save more money--but overall,...</h1>
+                            <p class="lower-time">10 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lowe-heading">The case for stubborn</p>
+                            <h1 class="lower-para">This decade is a moment of choice unlike any we...</h1>
+                            <p class="lower-time">6 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSadhgurupage">
+        <div class="sadhguru-page">
+            <div class="upper">
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                    </div>
+                    <div class="upper-matter">
+                        <p class="upper-para">Podcast</p>
+                        <h1 class="upper-heading">The Sadhguru Podcast</h1>
+                        <p class="upper-para">The Sadhguru Podcast</p>
+                    </div>
+                </div>
+                <div class="  cards d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <h1 class="lower-heading">Head or heart</h1>
+                            <p class="lower-para">Sadhguru shares his wisdom to how to make...</p>
+                            <p class="lower-time">16 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">How to equip yourself</p>
+                            <h1 class="lower-para">Society and human interactions are going</h1>
+                            <p class="lower-time">13 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">How not to get irritated</p>
+                            <h1 class="lower-para">How do you see an unplesant spouse the...</h1>
+                            <p class="lower-time">15 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lowe-heading">Isha Kriya</p>
+                            <h1 class="lower-para">Rooted in the timeless wisdom if the yogic...</h1>
+                            <p class="lower-time">16 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiononpurposepage">
+        <div class="on-purpose-page">
+            <div class="upper">
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                    </div>
+                    <div class="upper-matter">
+                        <p class="upper-para">Podcast</p>
+                        <h1 class="upper-heading">On Purpose with Jay</h1>
+                        <p class="upper-para">The Jay Shetty podcast</p>
+                    </div>
+                </div>
+                <div class="  cards d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <h1 class="lower-heading">Patrick bet David</h1>
+                            <p class="lower-para">Are you an entrepreneur or have dreams of mental...</p>
+                            <p class="lower-time">10 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">5 Techniques to cope</p>
+                            <h1 class="lower-para">Does anxiety looms around every corner of your...</h1>
+                            <p class="lower-time">4 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lower-heading">Radhanath Swami ON</p>
+                            <h1 class="lower-para">World-renowned spritual leader and philantropist...</h1>
+                            <p class="lower-time">12 min</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="image" />
+                        </div>
+                        <div class="lower-matter">
+                            <p class="lowe-heading">3 ways to let go</p>
+                            <h1 class="lower-para">Do the opinions of others veer you from the core...</h1>
+                            <p class="lower-time">13 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.podcast {
+
+    color: #ffffff;
+    font-family: "Roboto";
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+.card {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.image {
+    height: 120px;
+    width: 150px;
+    padding: 15px;
+}
+
+.lower-part {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.card-heading {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+    color: #151765;
+    font-weight: bold;
+    padding: 1px;
+
+}
+
+.card-para {
+    text-align: center;
+    font-size: 15px;
+    color: #5a7184;
+    font-family: "Roboto";
+    padding: 1px;
+}
+
+
+.upper-part {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 30vh;
+    background-size: cover;
+    padding: 1px;
+}
+
+.upper {
+    background-color: #151765;
+    height: 170px;
+    font-family: "Roboto";
+    color: #ffffff;
+    padding: 20px;
+}
+
+.upper-heading {
+    font-size: 20px;
+    padding: 1px;
+}
+
+.upper-para {
+    font-size: 10px;
+    padding: 1px;
+}
+
+.cards {
+    margin: 15px;
+    padding: 1px;
+}
+
+.card {
+    padding: 5px;
+    border-width: 0px;
+}
+
+.lower-heading {
+    color: #151765;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.lower-para {
+    color: #5a7184;
+    font-size: 10px;
+    padding: 1px;
+
+}
+
+.lower-time {
+    color: #151765;
+    font-size: 8px;
+    padding: 1px;
+}
